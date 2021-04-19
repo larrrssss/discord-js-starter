@@ -1,2 +1,9 @@
 # discord-js-starter
-Simple Discord.js starter kit
+
+## Setup
+
+```sh
+cp .env.sample .env
+
+npm run dev
+```
