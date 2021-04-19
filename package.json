@@ -1,0 +1,31 @@
+{
+  "name": "discord-js-starter",
+  "version": "1.0.0",
+  "description": "Simple Discord.js starter kit",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint src/",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lxrz/discord-js-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lxrz/discord-js-starter/issues"
+  },
+  "homepage": "https://github.com/lxrz/discord-js-starter#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "nodemon": "^2.0.7"
+  }
+}
